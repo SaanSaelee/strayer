@@ -72,16 +72,17 @@
         <!-- Divider -->
         <mj-section background-color="#fff">
             <mj-column>
-                <mj-divider  />
+                <mj-divider />
+                <mj-spacer height="20px" />
             </mj-column>
         </mj-section>
         <!-- End Divider -->
 
         <!-- Getting started section -->
-        <mj-wrapper background-color="#fff" padding="25px">
+        <mj-wrapper background-color="#fff">
             <mj-section>
-                <mj-column>
-                    <mj-text font-size="30px" align="center" font-weight="bold" padding="10px 25px">
+                <mj-column padding="10px 25px">
+                    <mj-text font-size="30px" align="center" font-weight="bold" padding-bottom="15px">
                         Getting started
                     </mj-text>
                 </mj-column>
