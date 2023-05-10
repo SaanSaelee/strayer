@@ -3,14 +3,15 @@
         <mj-title>The future is yours</mj-title>
         
         <mj-attributes>
-            <!-- MJML attributes -->
-            <mj-image padding="0" />
-            <mj-button background-color="#0057C2" padding="0" />
-            <mj-table padding="0" />
-            <mj-column padding="0" />
-            <mj-section padding="0" />
+            <!-- MJML Reset -->
             <mj-wrapper padding="0" />
-            <mj-divider border-color="#009CDE" border-width="10px" padding="0" />
+            <mj-section padding="0" />
+            <mj-image padding="0" />
+            <mj-text padding="0" />
+
+            <!-- Custom MJML attributes -->
+            <mj-button background-color="#0057C2" padding="0" />
+            <mj-divider border-color="#009CDE" border-width="10px" />
             <mj-all font-family="Arial" />
 
             <!-- Background colors -->
@@ -20,6 +21,10 @@
         </mj-attributes>
 
         <mj-style>
+            h1,
+            p {
+                margin: 0;
+            }
             .btn-hover a:hover {
                 background-color: #fff !important;
                 border-color:#0057C2 !important;
@@ -36,14 +41,17 @@
                 .padding-top-30 {
                     padding-top: 0 !important;
                 }
+                .btn-inline {
+                    display: inline-block !important;
+                }
             }
         </mj-style>
 
     </mj-head>
 
-    <mj-body background-color="lightgray">
+    <mj-body background-color="#fff">
         <!-- Hero logo -->
-        <mj-section background-color="#fff">
+        <mj-section background-color="#fff" padding="0">
             <mj-column>
                 <mj-image src="The future is yours/images/logo.png" alt="" padding="28px" width="180px" />
             </mj-column>
@@ -54,14 +62,14 @@
         <mj-wrapper background-color="#fff">
             <mj-section>
                 <mj-column padding="10px 25px 0" vertical-align="middle">
-                    <mj-text font-size="34px" font-weight="bold" line-height="40px">
-                        The future is yours
+                    <mj-text>
+                        <h1 style="font-size: 34px; font-weight: bold; line-height: 40px; margin-bottom: 15px">The future is yours</h1>
                     </mj-text>
-                    <mj-text font-size="16px" padding-top="13px" line-height="22px">
-                        You’ve just taken the first step toward the next chapter of your professional life. Whether you’re new in your career or are ready to try something different, completing your application could help you turn the page.
+                    <mj-text>
+                        <p style="font-size: 16px; line-height: 22px; margin: 13px 0">You’ve just taken the first step toward the next chapter of your professional life. Whether you’re new in your career or are ready to try something different, completing your application could help you turn the page.</p>
                     </mj-text>
-                    <mj-text font-size="16px" padding-top="13px" line-height="22px">
-                        It’s time to write your own Strayer story.
+                    <mj-text>
+                        <p style="font-size: 16px; line-height: 22px; margin-bottom: 13px">It’s time to write your own Strayer story.</p>
                     </mj-text>
                     <mj-button href="#" padding="10px 25px 30px" border="2px solid #0057C2" css-class="btn-hover btn-left">
                         Apply today
@@ -78,23 +86,23 @@
         <mj-section background-color="#fff">
             <mj-column>
                 <mj-divider padding-top="30px" css-class="padding-top-30" />
-                <mj-spacer height="20px" />
+                <!-- <mj-spacer height="20px" /> -->
             </mj-column>
         </mj-section>
         <!-- End Divider -->
 
         <!-- Getting started section -->
-        <mj-wrapper background-color="#fff">
+        <mj-wrapper background-color="#fff" padding="30px">
             <mj-section>
-                <mj-column padding="10px 25px">
-                    <mj-text font-size="30px" align="center" font-weight="bold" padding-bottom="15px">
+                <mj-column>
+                    <mj-text font-size="30px" align="center" font-weight="bold" padding-bottom="20px">
                         Getting started
                     </mj-text>
                 </mj-column>
             </mj-section>
             <mj-section background-color="#fff">
                 <mj-column>
-                    <mj-image src="The future is yours/images/programs.png" alt="" width="90px" padding="10px 25px" />
+                    <mj-image src="The future is yours/images/programs.png" alt="" width="90px" />
                     <mj-text font-size="22px" font-weight="bold" align="center">
                         Programs
                     </mj-text>
@@ -103,7 +111,7 @@
                     </mj-text>
                 </mj-column>
                 <mj-column>
-                    <mj-image src="The future is yours/images/programs.png" alt="" width="90px" padding="10px 25px" />
+                    <mj-image src="The future is yours/images/programs.png" alt="" width="90px" />
                     <mj-text font-size="22px" font-weight="bold" align="center">
                         Support
                     </mj-text>
@@ -112,7 +120,7 @@
                     </mj-text>
                 </mj-column>
                 <mj-column>
-                    <mj-image src="The future is yours/images/programs.png" alt="" width="90px" padding="10px 25px" />
+                    <mj-image src="The future is yours/images/programs.png" alt="" width="90px" />
                     <mj-text font-size="22px" font-weight="bold" align="center">
                         Admissions
                     </mj-text>
@@ -148,13 +156,21 @@
                 </mj-column>
             </mj-section>
             <mj-section padding-bottom="20px">
-                <mj-column padding="10px" vertical-align="middle">
+                <!-- <mj-column padding="10px" vertical-align="middle">
                     <mj-button href="#" background-color="#fff" border="1px solid #fff" color="#0057C2" font-weight="bold">
                         Apply now
                     </mj-button>
                 </mj-column>
                 <mj-column padding="10px" vertical-align="middle">
                     <mj-button href="#" background-color="transparent" border="1px solid #fff" font-weight="bold">
+                        <img src="The future is yours/images/calendar.png" width="14px" style="padding-right: 5px;">&nbsp;Schedule an appointment
+                    </mj-button>
+                </mj-column> -->
+                <mj-column padding="10px" vertical-align="middle">
+                    <mj-button css-class="btn-inline" href="#" background-color="#fff" border="1px solid #fff" color="#0057C2" font-weight="bold">
+                        Apply now
+                    </mj-button>
+                    <mj-button css-class="btn-inline" href="#" background-color="transparent" border="1px solid #fff" font-weight="bold">
                         <img src="The future is yours/images/calendar.png" width="14px" style="padding-right: 5px;">&nbsp;Schedule an appointment
                     </mj-button>
                 </mj-column>
