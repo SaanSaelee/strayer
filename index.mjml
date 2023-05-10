@@ -6,11 +6,10 @@
             <!-- MJML Reset -->
             <mj-wrapper padding="0" />
             <mj-section padding="0" />
-            <mj-image padding="0" />
-            <mj-text padding="0" />
+            <mj-divider padding="0" />
 
             <!-- Custom MJML attributes -->
-            <mj-button background-color="#0057C2" padding="0" />
+            <mj-button background-color="#0057C2" font-size="17px" font-weight="bold" padding="0" />
             <mj-divider border-color="#009CDE" border-width="10px" />
             <mj-all font-family="Arial" />
 
@@ -22,6 +21,9 @@
 
         <mj-style>
             h1,
+            h2,
+            h3,
+            h4,
             p {
                 margin: 0;
             }
@@ -61,22 +63,22 @@
         <!-- Main hero section -->
         <mj-wrapper background-color="#fff">
             <mj-section>
-                <mj-column padding="10px 25px 0" vertical-align="middle">
-                    <mj-text>
+                <mj-column padding="25px" vertical-align="middle">
+                    <mj-text padding="0">
                         <h1 style="font-size: 34px; font-weight: bold; line-height: 40px; margin-bottom: 15px">The future is yours</h1>
                     </mj-text>
-                    <mj-text>
+                    <mj-text padding="0">
                         <p style="font-size: 16px; line-height: 22px; margin: 13px 0">You’ve just taken the first step toward the next chapter of your professional life. Whether you’re new in your career or are ready to try something different, completing your application could help you turn the page.</p>
                     </mj-text>
-                    <mj-text>
+                    <mj-text padding="0">
                         <p style="font-size: 16px; line-height: 22px; margin-bottom: 13px">It’s time to write your own Strayer story.</p>
                     </mj-text>
-                    <mj-button href="#" padding="10px 25px 30px" border="2px solid #0057C2" css-class="btn-hover btn-left">
+                    <mj-button href="#" padding="10px 0" border="2px solid #0057C2" css-class="btn-hover btn-left">
                         Apply today
                     </mj-button>
                 </mj-column>
                 <mj-column vertical-align="middle">
-                    <mj-image src="The future is yours/images/hero-img.png" alt="" width="300px" />
+                    <mj-image src="The future is yours/images/hero-img.png" alt="" width="300px" padding="0" />
                 </mj-column>
             </mj-section>
         </mj-wrapper>
@@ -86,46 +88,40 @@
         <mj-section background-color="#fff">
             <mj-column>
                 <mj-divider padding-top="30px" css-class="padding-top-30" />
-                <!-- <mj-spacer height="20px" /> -->
+                <mj-spacer height="20px" />
             </mj-column>
         </mj-section>
         <!-- End Divider -->
 
         <!-- Getting started section -->
-        <mj-wrapper background-color="#fff" padding="30px">
+        <mj-wrapper background-color="#fff">
             <mj-section>
                 <mj-column>
-                    <mj-text font-size="30px" align="center" font-weight="bold" padding-bottom="20px">
-                        Getting started
+                    <mj-text align="center">
+                        <h2 style="font-size: 30px; font-weight: bold; margin-bottom: 20px;">Getting started</2>
                     </mj-text>
                 </mj-column>
             </mj-section>
             <mj-section background-color="#fff">
-                <mj-column>
+                <mj-column padding="10px 0">
                     <mj-image src="The future is yours/images/programs.png" alt="" width="90px" />
-                    <mj-text font-size="22px" font-weight="bold" align="center">
-                        Programs
-                    </mj-text>
-                    <mj-text font-size="16px" line-height="22px" align="center">
-                        Find the program that’s right for you. Explore our University Guide to learn more.
+                    <mj-text align="center">
+                        <h4 style="font-size: 22px; font-weight: bold; line-height: 25px;">Programs</h4>
+                        <p style="font-size: 16px; line-height: 22px; margin: 13px 0;">Find the program that’s right for you. Explore our University Guide to learn more.</p>
                     </mj-text>
                 </mj-column>
-                <mj-column>
+                <mj-column padding="10px 0">
                     <mj-image src="The future is yours/images/programs.png" alt="" width="90px" />
-                    <mj-text font-size="22px" font-weight="bold" align="center">
-                        Support
-                    </mj-text>
-                    <mj-text font-size="16px" line-height="22px" align="center">
-                        You’ll have a team of admissions officers, student services coaches and more to lean on.                
+                    <mj-text align="center">
+                        <h4 style="font-size: 22px; font-weight: bold; line-height: 25px;">Support</h4>
+                        <p style="font-size: 16px; line-height: 22px; margin: 13px 0;">You’ll have a team of admissions officers, student services coaches and more to lean on.</p>
                     </mj-text>
                 </mj-column>
-                <mj-column>
+                <mj-column padding="10px 0">
                     <mj-image src="The future is yours/images/programs.png" alt="" width="90px" />
-                    <mj-text font-size="22px" font-weight="bold" align="center">
-                        Admissions
-                    </mj-text>
-                    <mj-text font-size="16px" line-height="22px" align="center">
-                        Here’s everything you need to know to get started at Strayer University.                
+                    <mj-text align="center">
+                        <h4 style="font-size: 22px; font-weight: bold; line-height: 25px;">Admissions</h4>
+                        <p style="font-size: 16px; line-height: 22px; margin: 13px 0;">Here’s everything you need to know to get started at Strayer University.</p>
                     </mj-text>
                 </mj-column>
             </mj-section>
