@@ -51,11 +51,6 @@
             .btn-schedule {
                 border: 1px solid #fff !important;
             }
-            .btn-schedule:hover {
-                <!-- background: #fff !important; -->
-                <!-- color: #00263E !important; -->
-                opacity: 0.5 !important;
-            }
             
             @media (min-width: 481px) {
                 .btn-apply-today-left {
@@ -167,7 +162,7 @@
             <mj-section padding-bottom="20px" background-color="#00263E">
                 <mj-raw>
                     <a href="#"><button class="btn-apply-now" style="background-color: #fff; color: #0057c2; font-size: 17px; font-weight: bold; padding: 10px 25px; border-radius: 3px; border: none; margin: 10px; cursor: pointer;">Apply now</button></a>
-                    <a href="#"><button class="btn-schedule" style="background-color: #00263E; gray; color: #fff; font-size: 17px; font-weight: bold; padding: 10px 25px; border-radius: 3px; border: none; margin: 10px; cursor: pointer;"><img src="The future is yours/images/calendar.png" width="11px" style="padding-right: 5px;">&nbsp;Schedule an appointment</button></a>
+                    <a href="#"><button class="btn-schedule" style="background-color: #00263E; gray; color: #fff; font-size: 17px; font-weight: bold; padding: 10px 25px; border-radius: 3px; border: none; margin: 10px; cursor: pointer;"><img class="calendar" src="The future is yours/images/calendar.png" width="11px" style="padding-right: 5px;">&nbsp;Schedule an appointment</button></a>
                 </mj-raw>
             </mj-section>
         <!-- End Next steps section -->
@@ -200,6 +195,7 @@
                         1133 15th Street NW, Ste 200<br>
                         Washington, DC 20005
                     </mj-text>
+                    <mj-spacer height="20px" />
                 </mj-column>
             </mj-section>
             <!-- End Privacy policy -->
