@@ -3,29 +3,191 @@
         <mj-title>The future is yours</mj-title>
         
         <mj-attributes>
-
             <!-- MJML attributes -->
             <mj-image padding="0" />
-            <mj-button padding="0" />
+            <mj-button background-color="#0057C2" padding="0" />
             <mj-table padding="0" />
             <mj-column padding="0" />
             <mj-section padding="0" />
             <mj-wrapper padding="0" />
-            <mj-divider border-color="#009CDE" border-width="10px" />
-            
+            <mj-divider border-color="#009CDE" border-width="10px" padding="0" />
+            <mj-all font-family="Arial" />
+
             <!-- Background colors -->
-            <mj-class name="dark-blue" color="#00263E" />
-            <mj-class name="blue" color="#0057C2" />
-            <mj-class name="light-blue" color="#009CDE" />
-
-
+            <mj-class name="dark-blue" background-color="#00263E" />
+            <mj-class name="blue" background-color="#0057C2" />
+            <mj-class name="light-blue" background-color="#009CDE" />
         </mj-attributes>
+
+        <mj-style>
+            .btn {
+                background-color: red !important;
+            }
+            .btn-hover a:hover {
+                background-color: transparent !important;
+                border-color:#0057C2 !important;
+                color: #0057C2 !important;
+            }
+            .btn-hover td:hover {
+                background-color: transparent !important;
+                border-color: #0057C2 !important;
+            }
+        </mj-style>
+
     </mj-head>
-    <mj-body background-color="#fff">
-        <mj-section>
+
+    <mj-body background-color="lightgray">
+        <!-- Hero logo -->
+        <mj-section background-color="#fff">
             <mj-column>
-                <mj-image src="/images/logo.png" alt="" />
+                <mj-image src="The future is yours/images/logo.png" alt="" padding="28px" width="180px" />
             </mj-column>
         </mj-section>
+        <!-- End Hero logo -->
+
+        <!-- Main hero section -->
+        <mj-wrapper background-color="#fff">
+            <mj-section>
+                <mj-column padding="10px 25px 0" vertical-align="middle">
+                    <mj-text font-size="34px" font-weight="bold" line-height="40px">
+                        The future is yours
+                    </mj-text>
+                    <mj-text font-size="16px" padding-top="13px" line-height="22px">
+                        You’ve just taken the first step toward the next chapter of your professional life. Whether you’re new in your career or are ready to try something different, completing your application could help you turn the page.
+                    </mj-text>
+                    <mj-text font-size="16px" padding-top="13px" line-height="22px">
+                        It’s time to write your own Strayer story.
+                    </mj-text>
+                    <mj-button href="#" padding="10px 25px 30px" border="2px solid #0057C2" css-class="btn-hover">
+                        Apply today
+                    </mj-button>
+                </mj-column>
+                <mj-column vertical-align="middle">
+                    <mj-image src="images/hero-img.png" alt="" width="300px" />
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+        <!-- End Main hero section -->
+
+        <!-- Divider -->
+        <mj-section background-color="#fff">
+            <mj-column>
+                <mj-divider />
+                <mj-spacer height="20px" />
+            </mj-column>
+        </mj-section>
+        <!-- End Divider -->
+
+        <!-- Getting started section -->
+        <mj-wrapper background-color="#fff">
+            <mj-section>
+                <mj-column padding="10px 25px">
+                    <mj-text font-size="30px" align="center" font-weight="bold" padding-bottom="15px">
+                        Getting started
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section background-color="#fff">
+                <mj-column>
+                    <mj-image src="The future is yours/images/programs.png" alt="" width="90px" padding="10px 25px" />
+                    <mj-text font-size="22px" font-weight="bold" align="center">
+                        Programs
+                    </mj-text>
+                    <mj-text font-size="16px" line-height="22px" align="center">
+                        Find the program that’s right for you. Explore our University Guide to learn more.
+                    </mj-text>
+                </mj-column>
+                <mj-column>
+                    <mj-image src="The future is yours/images/programs.png" alt="" width="90px" padding="10px 25px" />
+                    <mj-text font-size="22px" font-weight="bold" align="center">
+                        Support
+                    </mj-text>
+                    <mj-text font-size="16px" line-height="22px" align="center">
+                        You’ll have a team of admissions officers, student services coaches and more to lean on.                
+                    </mj-text>
+                </mj-column>
+                <mj-column>
+                    <mj-image src="The future is yours/images/programs.png" alt="" width="90px" padding="10px 25px" />
+                    <mj-text font-size="22px" font-weight="bold" align="center">
+                        Admissions
+                    </mj-text>
+                    <mj-text font-size="16px" line-height="22px" align="center">
+                        Here’s everything you need to know to get started at Strayer University.                
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+        <!-- End Getting started section -->
+
+        <!-- Divider -->
+        <mj-section background-color="#fff">
+            <mj-column>
+                <mj-divider  />
+            </mj-column>
+        </mj-section>
+        <!-- End Divider -->
+
+        <!-- Next steps section -->
+        <mj-wrapper background-color="#00263E">
+            <mj-section>
+                <mj-column padding="10px 15px">
+                    <mj-text font-size="30px" font-weight="bold" color="#fff" align="center">
+                        Next steps
+                    </mj-text>
+                    <mj-text font-size="18px" font-weight="bold" line-height="25px" color="#fff" align="center">
+                        Your start is just a click away. Apply to begin your journey.
+                    </mj-text>
+                    <mj-text font-size="16px" line-height="22px" color="#fff" align="center">
+                        Still have questions? Schedule some time with an admissions officer.
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section padding-bottom="20px">
+                <mj-column padding="10px" vertical-align="middle">
+                    <mj-button href="#" background-color="#fff" border="1px solid #fff" color="#0057C2" font-weight="bold">
+                        Apply now
+                    </mj-button>
+                </mj-column>
+                <mj-column padding="10px" vertical-align="middle">
+                    <mj-button href="#" background-color="transparent" border="1px solid #fff" font-weight="bold">
+                        <img src="The future is yours/images/calendar.png" width="14px" style="padding-right: 5px;">&nbsp;Schedule an appointment
+                    </mj-button>
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+        <!-- End Next steps section -->
+
+        <!-- Footer section -->
+        <mj-wrapper background-color="#fff" padding="12px 0">
+            <!-- Social icons -->
+            <mj-section>
+                <mj-column>
+                    <mj-text align="center">
+                        <a href=""><img src="The future is yours/images/twitter.png" alt="" width="40px" style="padding: 2px 9px"></a>
+                        <a href=""><img src="The future is yours/images/facebook.png" alt="" width="40px" style="padding: 2px 9px"></a>
+                        <a href=""><img src="The future is yours/images/linkedin.png" alt="" width="40px" style="padding: 2px 9px"></a>
+                        <a href=""><img src="The future is yours/images/instagram.png" alt="" width="40px" style="padding: 2px 9px"></a>
+                        <a href=""><img src="The future is yours/images/youtube.png" alt="" width="40px" style="padding: 2px 9px"></a>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <!-- End Social icons -->
+
+            <!-- Privacy policy -->
+            <mj-section>
+                <mj-column>
+                    <mj-text align="center" font-size="11px" line-height="16px">
+                        You are receiving this email as it pertains to information requested from Strayer University. Please don't delete or disregard this email or mark it as spam. If you have any questions or concerns, please contact us at universityadmissions@strayer.edu. Privacy Policy
+                        <br>
+                        <br>
+                        <br>
+                        Strayer University<br>
+                        1133 15th Street NW, Ste 200<br>
+                        Washington, DC 20005
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <!-- End Privacy policy -->
+        </mj-wrapper>
     </mj-body>
 </mjml>

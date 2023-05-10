@@ -20,17 +20,22 @@
         </mj-attributes>
 
         <mj-style>
-            .btn {
-                background-color: red !important;
-            }
             .btn-hover a:hover {
-                background-color: transparent !important;
+                background-color: #fff !important;
                 border-color:#0057C2 !important;
                 color: #0057C2 !important;
             }
             .btn-hover td:hover {
-                background-color: transparent !important;
+                background-color: #0057C2 !important;
                 border-color: #0057C2 !important;
+            }
+            @media (min-width: 481px) {
+                .btn-left {
+                    text-align: left !important;
+                }
+                .padding-top-30 {
+                    padding-top: 0 !important;
+                }
             }
         </mj-style>
 
@@ -58,7 +63,7 @@
                     <mj-text font-size="16px" padding-top="13px" line-height="22px">
                         It’s time to write your own Strayer story.
                     </mj-text>
-                    <mj-button href="#" padding="10px 25px 30px" border="2px solid #0057C2" css-class="btn-hover">
+                    <mj-button href="#" padding="10px 25px 30px" border="2px solid #0057C2" css-class="btn-hover btn-left">
                         Apply today
                     </mj-button>
                 </mj-column>
@@ -72,7 +77,7 @@
         <!-- Divider -->
         <mj-section background-color="#fff">
             <mj-column>
-                <mj-divider />
+                <mj-divider padding-top="30px" css-class="padding-top-30" />
                 <mj-spacer height="20px" />
             </mj-column>
         </mj-section>
