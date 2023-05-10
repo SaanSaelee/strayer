@@ -17,10 +17,16 @@
             <mj-class name="dark-blue" background-color="#00263E" />
             <mj-class name="blue" background-color="#0057C2" />
             <mj-class name="light-blue" background-color="#009CDE" />
-
-
         </mj-attributes>
+
+        <mj-style inline="inline">
+            .btn {
+                background-color: red !important;
+            }
+        </mj-style>
+
     </mj-head>
+
     <mj-body background-color="lightgray">
         <!-- Hero logo -->
         <mj-section background-color="#fff">
@@ -112,7 +118,7 @@
         <!-- End Divider -->
 
         <!-- Next steps section -->
-        <mj-wrapper  mj-class="dark-blue">
+        <mj-wrapper background-color="#00263E">
             <mj-section>
                 <mj-column padding="10px 15px">
                     <mj-text font-size="30px" font-weight="bold" color="#fff" align="center">
@@ -126,21 +132,20 @@
                     </mj-text>
                 </mj-column>
             </mj-section>
-            <mj-section padding-bottom="20px">
-                <mj-column padding="10px 15px"  vertical-align="middle">
-                    <mj-button background-color="#fff" color="#0057C2" font-size="16px" font-weight="bold">
+            <mj-section>
+                <mj-column padding="20px" vertical-align="middle">
+                    <mj-button align="right" border="1px solid #0057C2">
                         Apply now
                     </mj-button>
                 </mj-column>
-                <mj-column padding="10px 25px" vertical-align="middle">
-                    <mj-button background-color="transparent" border="1px solid #fff" color="#fff" font-size="16px" font-weight="bold" padding="10px 25px">
-                        <a href="#"><img src="The future is yours/images/calendar.png" alt="" width="14px" style="padding-right: 5px;" />&nbsp;Schedule an appointment</a>
+                <mj-column padding="20px" vertical-align="middle">
+                    <mj-button align="left" background-color="transparent" border="1px solid #fff">
+                        Schedule an appointment
                     </mj-button>
                 </mj-column>
             </mj-section>
         </mj-wrapper>
         <!-- End Next steps section -->
-
 
         <!-- Footer section -->
         <mj-wrapper background-color="#fff" padding="12px 0">
