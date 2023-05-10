@@ -27,24 +27,42 @@
             p {
                 margin: 0;
             }
-            .btn-hover a:hover {
+            .btn-apply-today a:hover {
                 background-color: #fff !important;
-                border-color:#0057C2 !important;
+                border-color: #0057C2 !important;
                 color: #0057C2 !important;
             }
-            .btn-hover td:hover {
+            .btn-apply-today td:hover {
                 background-color: #0057C2 !important;
                 border-color: #0057C2 !important;
             }
+            .btn-apply-now {
+                border: 1px solid #fff !important;
+            }
+            .btn-apply-now:hover {
+                background-color: transparent !important;
+                border: 1px solid #fff !important;
+                color: #fff !important;
+            }
+            .btn-apply-now a:hover {
+                background-color: transparent !important;
+                color: #fff !important;
+            }
+            .btn-schedule {
+                border: 1px solid #fff !important;
+            }
+            .btn-schedule:hover {
+                <!-- background: #fff !important; -->
+                <!-- color: #00263E !important; -->
+                opacity: 0.5 !important;
+            }
+            
             @media (min-width: 481px) {
-                .btn-left {
+                .btn-apply-today-left {
                     text-align: left !important;
                 }
                 .padding-top-30 {
                     padding-top: 0 !important;
-                }
-                .btn-inline {
-                    display: inline-block !important;
                 }
             }
         </mj-style>
@@ -73,7 +91,7 @@
                     <mj-text padding="0">
                         <p style="font-size: 16px; line-height: 22px; margin-bottom: 13px">It’s time to write your own Strayer story.</p>
                     </mj-text>
-                    <mj-button href="#" padding="10px 0" border="2px solid #0057C2" css-class="btn-hover btn-left">
+                    <mj-button href="#" padding="10px 0" border="1px solid #0057C2" css-class="btn-apply-today btn-apply-today-left">
                         Apply today
                     </mj-button>
                 </mj-column>
@@ -137,41 +155,21 @@
         <!-- End Divider -->
 
         <!-- Next steps section -->
-        <mj-wrapper background-color="#00263E">
-            <mj-section>
-                <mj-column padding="10px 15px">
-                    <mj-text font-size="30px" font-weight="bold" color="#fff" align="center">
-                        Next steps
-                    </mj-text>
-                    <mj-text font-size="18px" font-weight="bold" line-height="25px" color="#fff" align="center">
-                        Your start is just a click away. Apply to begin your journey.
-                    </mj-text>
-                    <mj-text font-size="16px" line-height="22px" color="#fff" align="center">
-                        Still have questions? Schedule some time with an admissions officer.
+            <mj-section background-color="#00263E">
+                <mj-column padding="10px 25px">
+                    <mj-text align="center">
+                        <h2 style="font-size: 30px; font-weight: bold; color: #fff; margin-bottom: 15px;">Next steps</h2>
+                        <h5 style="font-size: 18px; font-weight: bold; line-height: 25px; color: #fff; margin-bottom: 15px;">Your start is just a click away. Apply to begin your journey.</h5>
+                        <p style="font-size: 16px; line-height: 22px; color: #fff; margin: 13px 0;">Still have questions? Schedule some time with an admissions officer.</p>
                     </mj-text>
                 </mj-column>
             </mj-section>
-            <mj-section padding-bottom="20px">
-                <!-- <mj-column padding="10px" vertical-align="middle">
-                    <mj-button href="#" background-color="#fff" border="1px solid #fff" color="#0057C2" font-weight="bold">
-                        Apply now
-                    </mj-button>
-                </mj-column>
-                <mj-column padding="10px" vertical-align="middle">
-                    <mj-button href="#" background-color="transparent" border="1px solid #fff" font-weight="bold">
-                        <img src="The future is yours/images/calendar.png" width="14px" style="padding-right: 5px;">&nbsp;Schedule an appointment
-                    </mj-button>
-                </mj-column> -->
-                <mj-column padding="10px" vertical-align="middle">
-                    <mj-button css-class="btn-inline" href="#" background-color="#fff" border="1px solid #fff" color="#0057C2" font-weight="bold">
-                        Apply now
-                    </mj-button>
-                    <mj-button css-class="btn-inline" href="#" background-color="transparent" border="1px solid #fff" font-weight="bold">
-                        <img src="The future is yours/images/calendar.png" width="14px" style="padding-right: 5px;">&nbsp;Schedule an appointment
-                    </mj-button>
-                </mj-column>
+            <mj-section padding-bottom="20px" background-color="#00263E">
+                <mj-raw>
+                    <a href="#"><button class="btn-apply-now" style="background-color: #fff; color: #0057c2; font-size: 17px; font-weight: bold; padding: 10px 25px; border-radius: 3px; border: none; margin: 10px; cursor: pointer;">Apply now</button></a>
+                    <a href="#"><button class="btn-schedule" style="background-color: #00263E; gray; color: #fff; font-size: 17px; font-weight: bold; padding: 10px 25px; border-radius: 3px; border: none; margin: 10px; cursor: pointer;"><img src="The future is yours/images/calendar.png" width="11px" style="padding-right: 5px;">&nbsp;Schedule an appointment</button></a>
+                </mj-raw>
             </mj-section>
-        </mj-wrapper>
         <!-- End Next steps section -->
 
         <!-- Footer section -->

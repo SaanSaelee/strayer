@@ -114,28 +114,49 @@
       margin: 0;
     }
 
-    .btn-hover a:hover {
+    .btn-apply-today a:hover {
       background-color: #fff !important;
       border-color: #0057C2 !important;
       color: #0057C2 !important;
     }
 
-    .btn-hover td:hover {
+    .btn-apply-today td:hover {
       background-color: #0057C2 !important;
       border-color: #0057C2 !important;
     }
 
+    .btn-apply-now {
+      border: 1px solid #fff !important;
+    }
+
+    .btn-apply-now:hover {
+      background-color: transparent !important;
+      border: 1px solid #fff !important;
+      color: #fff !important;
+    }
+
+    .btn-apply-now a:hover {
+      background-color: transparent !important;
+      color: #fff !important;
+    }
+
+    .btn-schedule {
+      border: 1px solid #fff !important;
+    }
+
+    .btn-schedule:hover {
+      < !-- background: #fff !important;
+      -->< !-- color: #00263E !important;
+      -->opacity: 0.5 !important;
+    }
+
     @media (min-width: 481px) {
-      .btn-left {
+      .btn-apply-today-left {
         text-align: left !important;
       }
 
       .padding-top-30 {
         padding-top: 0 !important;
-      }
-
-      .btn-inline {
-        display: inline-block !important;
       }
     }
 
@@ -221,11 +242,11 @@
                                         </td>
                                       </tr>
                                       <tr>
-                                        <td align="center" vertical-align="middle" class="btn-hover btn-left" style="font-size:0px;padding:10px 0;word-break:break-word;">
+                                        <td align="center" vertical-align="middle" class="btn-apply-today btn-apply-today-left" style="font-size:0px;padding:10px 0;word-break:break-word;">
                                           <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
                                             <tbody>
                                               <tr>
-                                                <td align="center" bgcolor="#0057C2" role="presentation" style="border:2px solid #0057C2;border-radius:3px;cursor:auto;mso-padding-alt:10px 25px;background:#0057C2;" valign="middle">
+                                                <td align="center" bgcolor="#0057C2" role="presentation" style="border:1px solid #0057C2;border-radius:3px;cursor:auto;mso-padding-alt:10px 25px;background:#0057C2;" valign="middle">
                                                   <a href="#" style="display:inline-block;background:#0057C2;color:#ffffff;font-family:Arial;font-size:17px;font-weight:bold;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:3px;" target="_blank"> Apply today </a>
                                                 </td>
                                               </tr>
@@ -503,114 +524,46 @@
         <tbody>
           <tr>
             <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" width="600px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-              <div style="margin:0px auto;max-width:600px;">
-                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                   <tbody>
                     <tr>
-                      <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
-                        <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
-                        <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
-                            <tbody>
-                              <tr>
-                                <td style="vertical-align:top;padding:10px 15px;">
-                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
-                                    <tbody>
-                                      <tr>
-                                        <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                          <div style="font-family:Arial;font-size:30px;font-weight:bold;line-height:1;text-align:center;color:#ffffff;">Next steps</div>
-                                        </td>
-                                      </tr>
-                                      <tr>
-                                        <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                          <div style="font-family:Arial;font-size:18px;font-weight:bold;line-height:25px;text-align:center;color:#ffffff;">Your start is just a click away. Apply to begin your journey.</div>
-                                        </td>
-                                      </tr>
-                                      <tr>
-                                        <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                          <div style="font-family:Arial;font-size:16px;line-height:22px;text-align:center;color:#ffffff;">Still have questions? Schedule some time with an admissions officer.</div>
-                                        </td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                        <!--[if mso | IE]></td></tr></table><![endif]-->
+                      <td style="vertical-align:top;padding:10px 25px;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                          <tbody>
+                            <tr>
+                              <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                                <div style="font-family:Arial;font-size:13px;line-height:1;text-align:center;color:#000000;">
+                                  <h2 style="font-size: 30px; font-weight: bold; color: #fff; margin-bottom: 15px;">Next steps</h2>
+                                  <h5 style="font-size: 18px; font-weight: bold; line-height: 25px; color: #fff; margin-bottom: 15px;">Your start is just a click away. Apply to begin your journey.</h5>
+                                  <p style="font-size: 16px; line-height: 22px; color: #fff; margin: 13px 0;">Still have questions? Schedule some time with an admissions officer.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </td>
                     </tr>
                   </tbody>
                 </table>
               </div>
-              <!--[if mso | IE]></td></tr></table></td></tr><tr><td class="" width="600px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-              <div style="margin:0px auto;max-width:600px;">
-                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
-                  <tbody>
-                    <tr>
-                      <td style="direction:ltr;font-size:0px;padding:0;padding-bottom:20px;text-align:center;">
-                        <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]-->
-                        <!-- <mj-column padding="10px" vertical-align="middle">
-                    <mj-button href="#" background-color="#fff" border="1px solid #fff" color="#0057C2" font-weight="bold">
-                        Apply now
-                    </mj-button>
-                </mj-column>
-                <mj-column padding="10px" vertical-align="middle">
-                    <mj-button href="#" background-color="transparent" border="1px solid #fff" font-weight="bold">
-                        <img src="The future is yours/images/calendar.png" width="14px" style="padding-right: 5px;">&nbsp;Schedule an appointment
-                    </mj-button>
-                </mj-column> -->
-                        <!--[if mso | IE]><td class="" style="vertical-align:middle;width:600px;" ><![endif]-->
-                        <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;">
-                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
-                            <tbody>
-                              <tr>
-                                <td style="vertical-align:middle;padding:10px;">
-                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
-                                    <tbody>
-                                      <tr>
-                                        <td align="center" vertical-align="middle" class="btn-inline" style="font-size:0px;padding:0;word-break:break-word;">
-                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
-                                            <tbody>
-                                              <tr>
-                                                <td align="center" bgcolor="#ffffff" role="presentation" style="border:1px solid #fff;border-radius:3px;cursor:auto;mso-padding-alt:10px 25px;background:#ffffff;" valign="middle">
-                                                  <a href="#" style="display:inline-block;background:#ffffff;color:#0057C2;font-family:Arial;font-size:17px;font-weight:bold;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:3px;" target="_blank"> Apply now </a>
-                                                </td>
-                                              </tr>
-                                            </tbody>
-                                          </table>
-                                        </td>
-                                      </tr>
-                                      <tr>
-                                        <td align="center" vertical-align="middle" class="btn-inline" style="font-size:0px;padding:0;word-break:break-word;">
-                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
-                                            <tbody>
-                                              <tr>
-                                                <td align="center" bgcolor="transparent" role="presentation" style="border:1px solid #fff;border-radius:3px;cursor:auto;mso-padding-alt:10px 25px;background:transparent;" valign="middle">
-                                                  <a href="#" style="display:inline-block;background:transparent;color:#ffffff;font-family:Arial;font-size:17px;font-weight:bold;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:3px;" target="_blank">
-                                                    <img src="The future is yours/images/calendar.png" width="14px" style="padding-right: 5px;">&nbsp;Schedule an appointment </a>
-                                                </td>
-                                              </tr>
-                                            </tbody>
-                                          </table>
-                                        </td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                        <!--[if mso | IE]></td></tr></table><![endif]-->
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td></tr></table></td></tr></table><![endif]-->
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#00263E" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div style="background:#00263E;background-color:#00263E;margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#00263E;background-color:#00263E;width:100%;">
+        <tbody>
+          <tr>
+            <td style="direction:ltr;font-size:0px;padding:0;padding-bottom:20px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]-->
+              <a href="#"><button class="btn-apply-now" style="background-color: #fff; color: #0057c2; font-size: 17px; font-weight: bold; padding: 10px 25px; border-radius: 3px; border: none; margin: 10px; cursor: pointer;">Apply now</button></a>
+              <a href="#"><button class="btn-schedule" style="background-color: #00263E; gray; color: #fff; font-size: 17px; font-weight: bold; padding: 10px 25px; border-radius: 3px; border: none; margin: 10px; cursor: pointer;"><img src="The future is yours/images/calendar.png" width="11px" style="padding-right: 5px;">&nbsp;Schedule an appointment</button></a>
+              <!--[if mso | IE]></tr></table><![endif]-->
             </td>
           </tr>
         </tbody>
