@@ -1,0 +1,31 @@
+<mjml>
+    <mj-head>
+        <mj-title>The future is yours</mj-title>
+        
+        <mj-attributes>
+
+            <!-- MJML attributes -->
+            <mj-image padding="0" />
+            <mj-button padding="0" />
+            <mj-table padding="0" />
+            <mj-column padding="0" />
+            <mj-section padding="0" />
+            <mj-wrapper padding="0" />
+            <mj-divider border-color="#009CDE" border-width="10px" />
+            
+            <!-- Background colors -->
+            <mj-class name="dark-blue" color="#00263E" />
+            <mj-class name="blue" color="#0057C2" />
+            <mj-class name="light-blue" color="#009CDE" />
+
+
+        </mj-attributes>
+    </mj-head>
+    <mj-body background-color="#fff">
+        <mj-section>
+            <mj-column>
+                <mj-image src="The future is yours/images/logo.png" alt="" padding="28px" width="180px" />
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
