@@ -22,11 +22,15 @@
         </mj-attributes>
     </mj-head>
     <mj-body background-color="lightgray">
+        <!-- Hero logo -->
         <mj-section background-color="#fff">
             <mj-column>
                 <mj-image src="The future is yours/images/logo.png" alt="" padding="28px" width="180px" />
             </mj-column>
         </mj-section>
+        <!-- End Hero logo -->
+
+        <!-- Main hero section -->
         <mj-wrapper background-color="#fff">
             <mj-section>
                 <mj-column padding="10px 25px 0" vertical-align="middle">
@@ -44,15 +48,68 @@
                     </mj-button>
                 </mj-column>
                 <mj-column vertical-align="middle">
-                    <mj-image src="The future is yours/images/hero-img.png" alt="" width="300px" padding-top="0" />
+                    <mj-image src="The future is yours/images/hero-img.png" alt="" width="300px" />
                 </mj-column>
             </mj-section>
         </mj-wrapper>
+        <!-- End Main hero section -->
+
+        <!-- Divider -->
         <mj-section background-color="#fff">
             <mj-column>
                 <mj-divider  />
-                <mj-spacer height="20px" />
             </mj-column>
         </mj-section>
+        <!-- End Divider -->
+
+        <!-- Getting started section -->
+        <mj-wrapper background-color="#fff" padding="25px">
+            <mj-section>
+                <mj-column>
+                    <mj-text font-size="30px" align="center" font-weight="bold" padding="10px 25px">
+                        Getting started
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section background-color="#fff">
+                <mj-column>
+                    <mj-image src="The future is yours/images/programs.png" alt="" width="90px" padding="10px 25px" />
+                    <mj-text font-size="22px" font-weight="bold" align="center">
+                        Programs
+                    </mj-text>
+                    <mj-text font-size="16px" line-height="22px" align="center">
+                        Find the program that’s right for you. Explore our University Guide to learn more.
+                    </mj-text>
+                </mj-column>
+                <mj-column>
+                    <mj-image src="The future is yours/images/programs.png" alt="" width="90px" padding="10px 25px" />
+                    <mj-text font-size="22px" font-weight="bold" align="center">
+                        Support
+                    </mj-text>
+                    <mj-text font-size="16px" line-height="22px" align="center">
+                        You’ll have a team of admissions officers, student services coaches and more to lean on.                
+                    </mj-text>
+                </mj-column>
+                <mj-column>
+                    <mj-image src="The future is yours/images/programs.png" alt="" width="90px" padding="10px 25px" />
+                    <mj-text font-size="22px" font-weight="bold" align="center">
+                        Admissions
+                    </mj-text>
+                    <mj-text font-size="16px" line-height="22px" align="center">
+                        Here’s everything you need to know to get started at Strayer University.                
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+        <!-- End Getting started section -->
+
+        <!-- Next steps section -->
+        <!-- End Next steps section -->
+
+        <!-- Social icons -->
+        <!-- End Social icons -->
+
+        <!-- Privacy policy -->
+        <!-- End Privacy policy -->
     </mj-body>
 </mjml>
