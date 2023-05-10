@@ -14,9 +14,9 @@
             <mj-all font-family="Arial" />
 
             <!-- Background colors -->
-            <mj-class name="dark-blue" color="#00263E" />
-            <mj-class name="blue" color="#0057C2" />
-            <mj-class name="light-blue" color="#009CDE" />
+            <mj-class name="dark-blue" background-color="#00263E" />
+            <mj-class name="blue" background-color="#0057C2" />
+            <mj-class name="light-blue" background-color="#009CDE" />
 
 
         </mj-attributes>
@@ -103,13 +103,76 @@
         </mj-wrapper>
         <!-- End Getting started section -->
 
+        <!-- Divider -->
+        <mj-section background-color="#fff">
+            <mj-column>
+                <mj-divider  />
+            </mj-column>
+        </mj-section>
+        <!-- End Divider -->
+
         <!-- Next steps section -->
+        <mj-wrapper  mj-class="dark-blue">
+            <mj-section>
+                <mj-column padding="10px 15px">
+                    <mj-text font-size="30px" font-weight="bold" color="#fff" align="center">
+                        Next steps
+                    </mj-text>
+                    <mj-text font-size="18px" font-weight="bold" line-height="25px" color="#fff" align="center">
+                        Your start is just a click away. Apply to begin your journey.
+                    </mj-text>
+                    <mj-text font-size="16px" line-height="22px" color="#fff" align="center">
+                        Still have questions? Schedule some time with an admissions officer.
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section padding-bottom="20px">
+                <mj-column padding="10px 15px"  vertical-align="middle">
+                    <mj-button background-color="#fff" color="#0057C2" font-size="16px" font-weight="bold">
+                        Apply now
+                    </mj-button>
+                </mj-column>
+                <mj-column padding="10px 25px" vertical-align="middle">
+                    <mj-button background-color="transparent" border="1px solid #fff" color="#fff" font-size="16px" font-weight="bold" padding="10px 25px">
+                        <a href="#"><img src="The future is yours/images/calendar.png" alt="" width="14px" style="padding-right: 5px;" />&nbsp;Schedule an appointment</a>
+                    </mj-button>
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
         <!-- End Next steps section -->
 
-        <!-- Social icons -->
-        <!-- End Social icons -->
 
-        <!-- Privacy policy -->
-        <!-- End Privacy policy -->
+        <!-- Footer section -->
+        <mj-wrapper background-color="#fff" padding="12px 0">
+            <!-- Social icons -->
+            <mj-section>
+                <mj-column>
+                    <mj-text align="center">
+                        <a href=""><img src="The future is yours/images/twitter.png" alt="" width="40px" style="padding: 2px 9px"></a>
+                        <a href=""><img src="The future is yours/images/facebook.png" alt="" width="40px" style="padding: 2px 9px"></a>
+                        <a href=""><img src="The future is yours/images/linkedin.png" alt="" width="40px" style="padding: 2px 9px"></a>
+                        <a href=""><img src="The future is yours/images/instagram.png" alt="" width="40px" style="padding: 2px 9px"></a>
+                        <a href=""><img src="The future is yours/images/youtube.png" alt="" width="40px" style="padding: 2px 9px"></a>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <!-- End Social icons -->
+
+            <!-- Privacy policy -->
+            <mj-section>
+                <mj-column>
+                    <mj-text align="center" font-size="11px" line-height="16px">
+                        You are receiving this email as it pertains to information requested from Strayer University. Please don't delete or disregard this email or mark it as spam. If you have any questions or concerns, please contact us at universityadmissions@strayer.edu. Privacy Policy
+                        <br>
+                        <br>
+                        <br>
+                        Strayer University<br>
+                        1133 15th Street NW, Ste 200<br>
+                        Washington, DC 20005
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <!-- End Privacy policy -->
+        </mj-wrapper>
     </mj-body>
 </mjml>
